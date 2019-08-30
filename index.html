@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LottoSimulator</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <p>Lotto Simulator</p>
+        </header>
+        <main>
+            <section class="visitorchoices">
+                <div class="selectNumbers">
+                    <p class="instruction">Choose 6 balls</p>
+                    <div class="numberContainer">
+                    </div>
+                </div>
+                <div class="draw">
+                    <div class="numberInput">
+                        <p class='instruction'>How many times you want to play ?</p>
+                        <input class="inputNumberSimulation" type="number" value="1">
+                        <a href="#0" class="button">Play</a>
+                    </div>
+
+                </div>
+                <div class="outcomeInformation">
+                    <div class="containerOutcome">
+                        <div>
+                            <P>Selected balls</P>
+                        </div>
+                        <div>
+                            <p class="selectedBalls"></p>
+                        </div>
+                    </div>
+                    <div class="containerOutcome">
+                        <div>
+                            <P>correct matches </P>
+                        </div>
+                        <div>
+                            <p class="correctMatches"></p>
+                        </div>
+                    </div>
+                    <div class="containerOutcome">
+                        <div>
+                            <P>Games played</P>
+                        </div>
+                        <div>
+                            <p class="gamesPlayed"></p>
+                        </div>
+                    </div>
+                    <div class="containerOutcome">
+                        <div>
+                            <P>Highest match</P>
+                        </div>
+                        <div>
+                            <p class="highestMatch"></p>
+                        </div>
+                    </div>
+                    <div class="containerOutcome">
+                        <div>
+                            <P>Total Profit</P>
+                        </div>
+                        <div>
+                            <p class="totalProfit"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <h2>Wylosowane liczby:</h2>
+        <section class="winningBalls">
+            <div class="winning">
+                <p id="ball1"></p>
+            </div>
+            <div class="winning">
+                <p id="ball2"></p>
+            </div>
+            <div class="winning">
+                <p id="ball3"></p>
+            </div>
+            <div class="winning">
+                <p id="ball4"></p>
+            </div>
+            <div class="winning">
+                <p id="ball5"></p>
+            </div>
+            <div class="winning">
+                <p id="ball6"></p>
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

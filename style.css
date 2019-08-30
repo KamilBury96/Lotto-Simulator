@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+
+
+header {
+    height: 15vh;
+    background-color: #F0B600;
+}
+
+
+header p {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    line-height: 15vh;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-left: 5vw;
+
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #212B5A;
+}
+
+.visitorchoices {
+    max-width: 1600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header p:nth-child(2) {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.instruction {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.selectNumbers {
+    width: 350px;
+    text-align: center;
+    margin-left: 5vw;
+
+}
+
+.selectNumbers p {
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.numberContainer {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+
+}
+
+.circle {
+    background-image: radial-gradient(30px 100px, #FDB706 0%, orange 100%, red 95%);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Roboto';
+}
+
+.selected {
+    background-image: radial-gradient(30px 100px, #FDB706 0%, orange 100%, red 95%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Roboto';
+}
+
+.draw {
+    margin-left: 5vw;
+    display: flex;
+}
+
+main {
+    height: 60vh;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    background-color: #212B5A;
+}
+
+.numberInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numberInput input[type="number"] {
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #0D47A1;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+
+.button {
+    align-self: flex-end;
+    background-color: #f0b600;
+    padding: 5px 20px;
+    border-bottom-color: none;
+    text-decoration: none;
+    border-radius: 10%;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.button:hover {
+    background-color: white;
+    color: #f0b600;
+}
+
+.outcomeInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+
+}
+
+.containerOutcome div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 40px;
+    background-color: #F0B600;
+    margin: 0px 0px 10px 0px;
+}
+
+.containerOutcome div:nth-of-type(1) {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.totalProfit,
+.highestMatch,
+.gamesPlayed,
+.correctMatches,
+.selectedBalls {
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.containerOutcome div:nth-of-type(1) p {
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #212B5A;
+}
+
+.containerOutcome {
+    display: flex;
+
+}
+
+.winningBalls {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.winning {
+    background-image: radial-gradient(100px 100px, #FDB706 0%, orange 100%, red 95%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.winning p {
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
